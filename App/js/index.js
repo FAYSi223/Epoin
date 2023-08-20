@@ -26,7 +26,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("1.25em")
                 .setTop("1.25em")
                 .setWidth("9.0625em")
-                .setHeight("4.1875em")
+                .setHeight("2.3125em")
                 .setCaption("Button")
                 .setCustomStyle({
                     "KEY" : {
@@ -34,6 +34,22 @@ xui.Class('App', 'xui.Module',{
                         "background-color" : "#000000",
                         "font-family" : "arial black,avant garde",
                         "font-size" : "16px",
+                        "border-radius" : "15px"
+                    }
+                })
+            );
+            
+            append(
+                xui.create("xui.UI.Button")
+                .setHost(host,"xui_ui_button11")
+                .setLeft("44.19047619047619em")
+                .setTop("1.5238095238095237em")
+                .setWidth("10.666666666666666em")
+                .setHeight("2.8190476190476192em")
+                .setCaption("Status Button")
+                .setType("status")
+                .setCustomStyle({
+                    "KEY" : {
                         "border-radius" : "15px"
                     }
                 })
