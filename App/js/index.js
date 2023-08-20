@@ -74,7 +74,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("8.380952380952381em")
                 .setWidth("27.123809523809523em")
                 .setHeight("15.085714285714285em")
-                .setSrc("https://drive.google.com/file/d/1VpWaPTKb8hlWdo4oViBMnXj3gCiivCal/view?usp=drive_link")
+                .setSrc("https://drive.google.com/file/d/1VpWaPTKb8hlWdo4oViBMnXj3gCiivCal/preview")
             );
             
             append(
