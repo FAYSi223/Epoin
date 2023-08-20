@@ -27,7 +27,7 @@ xui.Class('App', 'xui.Module',{
                 .setTop("1.25em")
                 .setWidth("9.0625em")
                 .setHeight("2.3125em")
-                .setCaption("Button")
+                .setCaption("Discord")
                 .setCustomStyle({
                     "KEY" : {
                         "color" : "#000000",
@@ -46,13 +46,25 @@ xui.Class('App', 'xui.Module',{
                 .setTop("1.5238095238095237em")
                 .setWidth("10.666666666666666em")
                 .setHeight("2.8190476190476192em")
-                .setCaption("Status Button")
+                .setCaption("Profil")
                 .setType("status")
                 .setCustomStyle({
                     "KEY" : {
                         "border-radius" : "15px"
                     }
                 })
+            );
+            
+            append(
+                xui.create("xui.UI.ComboInput")
+                .setHost(host,"xui_ui_comboinput85")
+                .setLeft("16.761904761904763em")
+                .setTop("1.5238095238095237em")
+                .setWidth("22.552380952380954em")
+                .setHeight("2.5142857142857142em")
+                .setLabelSize("8em")
+                .setLabelCaption("Search")
+                .setType("popbox")
             );
             
             return children;
