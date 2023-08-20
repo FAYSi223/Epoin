@@ -67,6 +67,21 @@ xui.Class('App', 'xui.Module',{
                 .setType("popbox")
             );
             
+            append(
+                xui.create("xui.UI.Video")
+                .setHost(host,"xui_ui_video1")
+                .setLeft("3.0476190476190474em")
+                .setTop("8.380952380952381em")
+                .setWidth("27.123809523809523em")
+                .setHeight("15.085714285714285em")
+                .setSrc("https://drive.google.com/file/d/1VpWaPTKb8hlWdo4oViBMnXj3gCiivCal/view?usp=drive_link")
+            );
+            
+            append(
+                xui.create("xui.MessageService")
+                .setHost(host,"xui_messageservice1")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
